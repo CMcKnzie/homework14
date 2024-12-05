@@ -9,13 +9,13 @@ import Ingredients from './views/Ingredients.vue'
 
 
   const routes = [
-  { path: '/homework13/', name: 'Home', component: HomePage },
-  { path: '/homework13/by-name/:name?', name: 'MealsByName', component: MealsByName },
-  { path: '/homework13/by-letter/:letter?', name: 'MealsByLetter', component: MealsByLetter },
-  { path: '/homework13/by-ingredient/:ingredient?', name: 'MealsByIngredients', component: MealsByIngredients },
-  { path: '/homework13/meal/:id', name: 'MealDetails', component: MealDetails },
-  { path: '/homework13/ingredients', name: 'Ingredients', component: Ingredients },
-  { path: '/homework13/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
+  { path: '/homework14/', name: 'Home', component: HomePage },
+  { path: '/homework14/by-name/:name?', name: 'MealsByName', component: MealsByName },
+  { path: '/homework14/by-letter/:letter?', name: 'MealsByLetter', component: MealsByLetter },
+  { path: '/homework14/by-ingredient/:ingredient?', name: 'MealsByIngredients', component: MealsByIngredients },
+  { path: '/homework14/meal/:id', name: 'MealDetails', component: MealDetails },
+  { path: '/homework14/ingredients', name: 'Ingredients', component: Ingredients },
+  { path: '/homework14/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
 ]
 
 const router = createRouter({
